@@ -1,0 +1,30 @@
+{
+  "name": "raxi-dns",
+  "version": "0.0.1",
+  "description": "An interective command line interface for Rackspace's DNSaaS",
+  "main": "dns-cli.coffee",
+  "dependencies": {
+    "cli-table": "~0.2.0",
+    "pkgcloud": "~0.8.17",
+    "underscore": "~1.5.2",
+    "inquirer": "~0.4.0",
+    "cli-color": "~0.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdodev/raxi-dns.git"
+  },
+  "keywords": [
+    "cli",
+    "rackspace",
+    "interactive",
+    "command",
+    "DNS"
+  ],
+  "author": "Ruben Orduz |  Rackspace, inc.",
+  "license": "MIT"
+}
