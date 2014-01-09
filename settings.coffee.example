@@ -1,4 +1,0 @@
-module.exports = 
-  rax_username: '',
-  rax_api_key: '',
-  default_region: 'DFW'

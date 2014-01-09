@@ -9,10 +9,15 @@ This is an very early release (in case the 0.0.1 version number wasn't explicit 
 
 Installation
 =============
- * First, install coffee globally if you haven't done so (i.e. `npm install -g coffee-script`)
- * Install globally from npm (`npm install -g raxi-dns`) 
+ * Clone this repo and cd into it.
+ * Run `npm install`
  
 
 Usage
 ======
- * Run `raxi-dns` in a command line and follow the prompts on screen.
+ * Within the same directory above, run `node dns-cli`
+
+Settings (optional)
+========
+ Every time you use this program, you'll need to provide your Rackspace username, API Key and default region. 
+ If you are planning on using this utility several times, a settings file is provided, which can be used to store your rackspace API credentials. Inside this directory there is a file called `settings.js.example`. Rename to `settings.js` and fill in the fields as needed. After you fill your credentials, the program shouldn't ask for your rackspace credentials in subsequent runs.
